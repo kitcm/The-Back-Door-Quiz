@@ -1,0 +1,72 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container for the quiz */
+#quiz-container {
+    background-color: #fff;
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the quiz title */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling for the quiz description */
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Styling for each question block */
+.quiz-block {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Question text */
+.quiz-block h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Radio button labels styling */
+.quiz-block label {
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+
+/* Button styling */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Result styling */
+#result {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}
